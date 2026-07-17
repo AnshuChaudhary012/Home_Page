@@ -116,7 +116,42 @@ a:hover {
   letter-spacing: 0%;
   color: #000000b2;
 }
+/* layer 3 */
 
+.layer3 {
+  background-image:
+    linear-gradient(#2c49fecc, #2c49fecc), url(/assects/images/layer3_img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffffff;
+}
+
+.top-left-h {
+  font-weight: 700;
+  line-height: 137%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.top-left-p {
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.top-left-a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.l3-card-p {
+  font-weight: 400;   
+  line-height: 100%;
+  letter-spacing: 0%;
+}
 /* vsmall devices */
 @media (max-width: 576px) {
   nav {
