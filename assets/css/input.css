@@ -1,2 +1,59 @@
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+@import "tailwindcss";
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  /* colors here  */
+  --color-primary: #f4241e;
+  --color-yellow: #f6e300;
+  --color-yellow-light: #fff03f;
+  --color-yellow-bright: #fff31a;
+  --color-yellow-border: #f4e900;
+  --color-yellow-513: #f29513;
+  --color-red-41E: #f4241e;
+
+  /* using in color like text-blue bg-red etc */
+  --color-custom-blue: #1a9fff;
+  /* only for spacing in mt pt p m in gap  etc */
+  --spacing-custom-9: 9px;
+  --spacing-custom-10: 10px;
+  --spacing-custom-11: 11px;
+  --spacing-custom-15: 15px;
+  --spacing-custom-17: 17px;
+  --spacing-custom-18: 18px;
+  --spacing-custom-19: 19px;
+  --spacing-custom-25: 25px;
+  --spacing-custom-26: 26px;
+  --spacing-custom-29: 29px;
+  --spacing-custom-31: 31px;
+  --spacing-custom-37: 37px;
+  --spacing-custom-38: 38px;
+  --spacing-custom-42: 42px;
+  --spacing-custom-50: 50px;
+  --spacing-custom-58: 58px;
+  --spacing-custom-63: 63px;
+  --spacing-custom-66: 66px;
+  --spacing-custom-73: 73px;
+  /* for shadows only */
+  --shadow-header: 0px 4px 35px 0px #00000014;
+  /* it will use inside mx-w-...  */
+  --container-header: 1362px;
+  --container-1352: 1352px;
+  --container-189: 189px;
+  --container-591: 591px;
+  --container-922: 922px;
+  --container-1352: 1352px;
+  --container-1181: 1181px;
+  --z-100: 100;
+  /* leading or line-height in percentage */
+  --leading-100: 100%;
+  --leading-150: 150%;
+  --leading-133: 133%;
+  --leading-178: 178%;
+  --leading-180: 180%;
+  --leading-200: 200%;
+  /* border radius  or rounded className*/
+  --radius-custom: 10px;
+}
