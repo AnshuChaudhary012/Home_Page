@@ -11,9 +11,8 @@
   --color-yellow-light: #fff03f;
   --color-yellow-bright: #fff31a;
   --color-yellow-border: #f4e900;
-  --color-yellow-513: #f29513;
+  --color-yellow-513: yellow;
   --color-red-41E: #f4241e;
-
   /* using in color like text-blue bg-red etc */
   --color-custom-blue: #1a9fff;
   /* only for spacing in mt pt p m in gap  etc */
